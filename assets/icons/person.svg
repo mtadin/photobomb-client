@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="256"
+   height="256"
+   viewBox="0 0 67.733332 67.733332"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="person.svg"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)">
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect977"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <linearGradient
+       id="linearGradient971"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop969" />
+    </linearGradient>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect957"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect952"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect929"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.8"
+     inkscape:cx="72.07826"
+     inkscape:cy="111.13278"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="true"
+     units="px"
+     width="64px"
+     showguides="true"
+     inkscape:snap-grids="false"
+     inkscape:snap-to-guides="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:object-nodes="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid863"
+       dotted="false"
+       originy="0.079374998"
+       originx="-0.026458333" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <ellipse
+       style="fill:#000000;fill-opacity:1;stroke-width:0.264583"
+       id="path959"
+       cx="33.866665"
+       cy="33.866665"
+       r="28.442707" />
+    <path
+       id="path1049"
+       style="fill:#e3e3e3;fill-opacity:1;stroke-width:0.99999999;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 128 51.882812 A 34.048279 34.048279 0 0 0 93.951172 85.929688 A 34.048279 34.048279 0 0 0 128 119.97852 A 34.048279 34.048279 0 0 0 162.04883 85.929688 A 34.048279 34.048279 0 0 0 128 51.882812 z M 128 56.167969 A 29.762564 29.762564 0 0 1 157.76172 85.929688 A 29.762564 29.762564 0 0 1 128 115.69336 A 29.762564 29.762564 0 0 1 98.238281 85.929688 A 29.762564 29.762564 0 0 1 128 56.167969 z M 128 133.86719 C 94.844904 133.86719 61.68968 142.35404 41.240234 159.32812 C 18.184752 178.46537 41.240234 240.52148 41.240234 240.52148 L 214.75977 240.52148 C 214.75977 240.52148 237.81525 178.46537 214.75977 159.32812 C 194.31033 142.35404 161.1551 133.86719 128 133.86719 z M 128 137.89453 C 158.65092 137.89453 189.30212 145.74154 208.20703 161.43359 C 229.52116 179.12541 208.20703 236.49414 208.20703 236.49414 L 47.792969 236.49414 C 47.792969 236.49414 26.478845 179.12541 47.792969 161.43359 C 66.697884 145.74154 97.349078 137.89453 128 137.89453 z "
+       transform="scale(0.26458333)" />
+  </g>
+</svg>

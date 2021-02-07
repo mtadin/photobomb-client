@@ -1,0 +1,32 @@
+button {
+    padding: 4px 24px;
+    border: solid 1px;
+
+    border-color: $n-darkblue;
+    color: $n-white;
+
+    background: linear-gradient(to bottom, $n-darkblue 50%, $n-blue 50%);
+    background-size: 100% 200%;
+    background-position: left top;
+
+    max-width: 240px;
+    text-align: center;
+
+    font-size: $small;
+
+    // display: flex;
+    // flex-direction: row;
+
+    .icon {
+        svg {
+            height: 14px;
+            width: 14px;
+            padding-right: 4px;
+        }
+    }
+}
+
+button:hover {
+    background-position: right bottom;
+    transition: 0.2s;
+}
