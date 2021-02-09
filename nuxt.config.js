@@ -50,31 +50,31 @@ export default {
 
   auth: {
     redirect: {
-      login: '/api/user/login',
-      logout: '/',
-      home: '/'
+      login: '/user/login',
+      logout: '/user/login',
+      home: '/user/me'
     },
     strategies: {
       localRefresh: {
         scheme: 'refresh',
         token: {
           property: 'token.accessToken',
-          maxAge: 15
+          maxAge: 36000
         },
         refreshToken: {
           property: 'token.refreshToken',
           data: 'refreshToken',
           maxAge: false
         },
+        user: {
+          property: 'user'
+        },
         endpoints: {
           login: { url: '/api/user/login', method: 'post' },
           refresh: { url: '/api/user/refresh', method: 'post' },
-          user: { url: '/api/user', method: 'get' }
-          // logout: { url: '/api/user/logout', method: 'post' }
+          user: { url: '/api/user', method: 'get' },
+          logout: { url: '/api/user/logout', method: 'post' }
         }
-        // user: {
-        //   property: 'data'
-        // }
         // autoLogout: false
       }
     }

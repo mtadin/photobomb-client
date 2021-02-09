@@ -1,0 +1,26 @@
+.content {
+  padding: 8px;
+  height: 100%;
+
+  &__profile {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+
+    h1 {
+      font-weight: 300;
+      margin-bottom: 0;
+    }
+
+    hr {
+      margin: 10px 0 20px;
+      border: 1px solid $n-white;
+    }
+    
+    a:hover {
+      color: $n-darkblue;
+      transition: 0.2s;
+    }
+  }
+}

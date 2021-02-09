@@ -13,7 +13,7 @@
           <div class="content__signup__form">
             <div class="content__signup__form__input">
               <label>Username: </label>
-              <input v-model="signup.username" type="text">
+              <input v-model="signup.username" type="text" @blur="checkUsername">
             </div>
             <span :class="usernameCheck.available ? 'green' : 'red'">
               {{ usernameCheck.message }}
@@ -102,15 +102,13 @@ export default {
         })
     },
     async userSignup () {
-      if (!this.usernameCheck.available) {
-        this.checkUsername()
-        if (this.minimum && this.number && this.uppercase && this.match && this.signup.username && this.usernameCheck.available) {
-          await this.$userRepository.signup(this.signup)
-            .then((res) => {
-              // TODO login and reroute
-              this.$router.push('/user/login')
-            })
-        }
+      console.log('signup')
+      if (this.minimum && this.number && this.uppercase && this.match && this.signup.username && this.usernameCheck.available) {
+        await this.$userRepository.signup(this.signup)
+          .then((res) => {
+            // TODO login and reroute
+            this.$router.push('/user/me')
+          })
       }
     }
   }
