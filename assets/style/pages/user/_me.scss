@@ -11,6 +11,12 @@
     h1 {
       font-weight: 300;
       margin-bottom: 0;
+      margin: 0 auto;
+    }
+
+    h2 {
+      font-weight: 100;
+      margin-bottom: 0;
     }
 
     hr {
@@ -21,6 +27,15 @@
     a:hover {
       color: $n-darkblue;
       transition: 0.2s;
+    }
+
+    &__posts {
+      &__title {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+      }
     }
   }
 }

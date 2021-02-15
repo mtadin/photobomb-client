@@ -7,11 +7,15 @@
         </h1>
         <hr>
         <div class="content__profile__posts">
-          <h1>
-            Your posts
-          </h1>
+          <div class="content__profile__posts__title">
+            <h2>
+              Your posts
+            </h2>
+            <div>
+              <Button :content="'+ Add new post'" @click.native="$router.push('/post/create')" />
+            </div>
+          </div>
           <hr>
-          <Button :content="'+ Add new post'" @click.native="$router.push('/post/create')" />
         </div>
       </div>
     </div>

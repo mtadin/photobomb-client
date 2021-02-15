@@ -70,10 +70,10 @@ export default {
           property: 'user'
         },
         endpoints: {
-          login: { url: '/api/user/login', method: 'post' },
-          refresh: { url: '/api/user/refresh', method: 'post' },
-          user: { url: '/api/user', method: 'get' },
-          logout: { url: '/api/user/logout', method: 'post' }
+          login: { url: '/api/auth/login', method: 'post' },
+          refresh: { url: '/api/auth/refresh', method: 'post' },
+          user: { url: '/api/auth', method: 'get' },
+          logout: { url: '/api/auth/logout', method: 'post' }
         }
         // autoLogout: false
       }
