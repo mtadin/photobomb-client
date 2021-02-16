@@ -1,5 +1,5 @@
 <template>
-  <button type="button">
+  <button type="button" :title="tooltip">
     <Icon v-if="icon" :name="icon" />
     {{ content }}
   </button>
@@ -9,7 +9,8 @@
 export default {
   props: {
     content: { type: String, default: '' },
-    icon: { type: String, default: '' }
+    icon: { type: String, default: '' },
+    tooltip: { type: String, default: '' },
   }
 }
 </script>

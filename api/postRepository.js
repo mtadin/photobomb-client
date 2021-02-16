@@ -8,15 +8,35 @@ export default $axios => ({
       { headers: { 'content-type': 'multipart/form-data' } })
   },
 
-  getPostTags () {
-    return $axios.get('/api/post/tags')
-  },
-
   getPost (id) {
     return $axios.get(`/api/post/${id}`)
   },
 
   getAllPosts () {
     return $axios.get('/api/posts')
+  },
+
+  getPostsByUserId (id) {
+    return $axios.get(`/api/posts/${id}`)
+  },
+
+  getPostTags () {
+    return $axios.get('/api/post/tags')
+  },
+
+  likePost (postId, userId) {
+    return $axios.post(`api/post/${postId}/like`, { id: userId })
+  },
+
+  commentPost (postId, userId) {
+    return $axios.post(`api/post/${postId}/comment`, { id: userId })
+  },
+
+  getLikes (postId) {
+    return $axios.get(`api/post/${postId}/likes`)
+  },
+
+  getComments (postId) {
+    return $axios.get(`api/post/${postId}/comments`)
   }
 })

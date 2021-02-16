@@ -17,6 +17,7 @@
           </div>
           <hr>
         </div>
+        <Post v-for="post in posts" :key="post._id" :post="post" />
       </div>
     </div>
   </div>
@@ -29,10 +30,17 @@ export default {
   middleware: 'auth',
   data () {
     return {
+      posts: []
     }
   },
   computed: {
     ...mapGetters(['isAuthenticated', 'loggedInUser'])
+  },
+  async created () {
+    await this.$postRepository.getPostsByUserId(this.$auth.user._id)
+      .then((res) => {
+        this.posts = res.data
+      })
   }
 }
 </script>

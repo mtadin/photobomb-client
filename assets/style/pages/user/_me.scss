@@ -1,12 +1,9 @@
 .content {
-  padding: 8px;
-  height: 100%;
-
   &__profile {
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    max-width: 800px;
+    max-width: 1000px;
 
     h1 {
       font-weight: 300;

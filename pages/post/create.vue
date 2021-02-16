@@ -84,12 +84,11 @@ export default {
       }, false)
     },
     async createPost () {
-      console.log(this.post)
       await this.$postRepository.createPost(this.post)
         .then((res) => {
           this.$postRepository.uploadImage(res.data._id, this.img)
         })
-      // this.$router.push('/user/me')
+      this.$router.push('/user/me')
     }
   }
 }
