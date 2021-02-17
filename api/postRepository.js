@@ -28,8 +28,8 @@ export default $axios => ({
     return $axios.post(`api/post/${postId}/like`, { id: userId })
   },
 
-  commentPost (postId, userId) {
-    return $axios.post(`api/post/${postId}/comment`, { id: userId })
+  commentPost (postId, userId, username, comment) {
+    return $axios.post(`api/post/${postId}/comment`, { userId, username, comment })
   },
 
   getLikes (postId) {

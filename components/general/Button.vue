@@ -1,5 +1,5 @@
 <template>
-  <button type="button" :title="tooltip">
+  <button :type="type" :title="tooltip">
     <Icon v-if="icon" :name="icon" />
     {{ content }}
   </button>
@@ -11,6 +11,7 @@ export default {
     content: { type: String, default: '' },
     icon: { type: String, default: '' },
     tooltip: { type: String, default: '' },
+    type: { type: String, default: 'button' }
   }
 }
 </script>
